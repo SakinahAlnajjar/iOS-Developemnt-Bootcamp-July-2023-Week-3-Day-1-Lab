@@ -14,6 +14,7 @@ class ViewController4: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
         label.text = "\(switcher.isOn ? "On" : "off")"
         
     }
